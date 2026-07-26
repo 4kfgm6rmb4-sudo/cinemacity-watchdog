@@ -11,7 +11,7 @@ name: Cinema City watchdog
 # ať netrefí stejnou špičku.
 on:
   schedule:
-    - cron: "8,38 * * * *"
+    - cron: "*/5 * * * *"
     - cron: "21,51 * * * *"
   workflow_dispatch:
     inputs:
